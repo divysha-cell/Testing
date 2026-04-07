@@ -1,14 +1,14 @@
 [
     {
-        "name": "projects/project/locations/location/instances/instance/slaDefinitions/4",
-        "id": 4,
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/5",
+        "id": 5,
         "slaType": "AlertRuleGenerator",
         "alertType": "AllAlerts",
-        "slaTypeValue": "",
+        "slaTypeValue": "ALL",
         "slaPeriod": 5.0,
-        "slaPeriodTimeUnit": "Minutes",
+        "slaPeriodTimeUnit": "Seconds",
         "criticalSlaPeriod": 1.0,
-        "criticalSlaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriodTimeUnit": "Seconds",
         "environments": [
             "A_Podman_UpgradedLegacy"
         ]
