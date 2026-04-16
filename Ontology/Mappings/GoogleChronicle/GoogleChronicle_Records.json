@@ -24,6 +24,17 @@
     {
         "id": 0,
         "source": "GoogleChronicle",
+        "familyName": "",
+        "familyId": 0,
+        "product": "EXTERNAL",
+        "eventName": null,
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "GoogleChronicle",
         "familyName": "Default",
         "familyId": 0,
         "product": "EXTERNAL",
