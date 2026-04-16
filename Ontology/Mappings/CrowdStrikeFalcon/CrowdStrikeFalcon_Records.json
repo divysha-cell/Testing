@@ -13,6 +13,28 @@
     {
         "id": 0,
         "source": "CrowdStrikeFalcon",
+        "familyName": "latest",
+        "familyId": 0,
+        "product": "Falcon",
+        "eventName": null,
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "CrowdStrikeFalcon",
+        "familyName": "latest",
+        "familyId": 0,
+        "product": "Falcon",
+        "eventName": null,
+        "mappingStatus": null,
+        "changeSource": "ChangeSourceUnspecified",
+        "exampleEventFields": []
+    },
+    {
+        "id": 0,
+        "source": "CrowdStrikeFalcon",
         "familyName": "Default",
         "familyId": 0,
         "product": "CrowdStrike Falcon",
