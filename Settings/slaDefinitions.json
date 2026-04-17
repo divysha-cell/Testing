@@ -1,0 +1,68 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/5",
+        "id": 5,
+        "slaType": "CaseStage",
+        "slaTypeValue": "[\"Assessment\"]",
+        "slaPeriod": 7896.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 2.0,
+        "criticalSlaPeriodTimeUnit": "Hours",
+        "environments": [
+            "*"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/4",
+        "id": 4,
+        "slaType": "AlertPriority",
+        "slaTypeValue": "[\"High\"]",
+        "slaPeriod": 19000.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "manualdynamic"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/3",
+        "id": 3,
+        "slaType": "CasePriority",
+        "slaTypeValue": "[\"Critical\"]",
+        "slaPeriod": 5.0,
+        "slaPeriodTimeUnit": "Days",
+        "criticalSlaPeriod": 100.0,
+        "criticalSlaPeriodTimeUnit": "Hours",
+        "environments": [
+            "1233333333333333333322222222222"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/2",
+        "id": 2,
+        "slaType": "CaseStage",
+        "slaTypeValue": "[\"Improvement\"]",
+        "slaPeriod": 2.0,
+        "slaPeriodTimeUnit": "Hours",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Hours",
+        "environments": [
+            "Default Environment"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/1",
+        "id": 1,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "SpecificAlerts",
+        "slaTypeValue": "[\"generic:whyesi.fun\"]",
+        "slaPeriod": 2.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Test"
+        ]
+    }
+]
