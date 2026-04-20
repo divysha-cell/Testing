@@ -1,1 +1,57 @@
-{}
+{
+    "soar_block_entities": [
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/2",
+            "id": 2,
+            "entityIdentifier": "Testing2",
+            "entityType": "CLUSTER",
+            "action": "DoNotCreateEntity",
+            "environmentsJson": "[\"*\"]"
+        },
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
+            "id": 1,
+            "entityIdentifier": "Testing",
+            "entityType": "ThreatActor",
+            "action": "DoNotGroupAlerts",
+            "environmentsJson": "[\"Default Environment\"]"
+        }
+    ],
+    "items": [
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/2",
+            "id": 2,
+            "entityIdentifier": "Testing2",
+            "entityType": "CLUSTER",
+            "action": "DoNotCreateEntity",
+            "environmentsJson": "[\"*\"]"
+        },
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
+            "id": 1,
+            "entityIdentifier": "Testing",
+            "entityType": "ThreatActor",
+            "action": "DoNotGroupAlerts",
+            "environmentsJson": "[\"Default Environment\"]"
+        }
+    ],
+    "soarBlockEntities": [
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/2",
+            "id": 2,
+            "entityIdentifier": "Testing2",
+            "entityType": "CLUSTER",
+            "action": "DoNotCreateEntity",
+            "environmentsJson": "[\"*\"]"
+        },
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
+            "id": 1,
+            "entityIdentifier": "Testing",
+            "entityType": "ThreatActor",
+            "action": "DoNotGroupAlerts",
+            "environmentsJson": "[\"Default Environment\"]"
+        }
+    ],
+    "totalSize": 2
+}
