@@ -1,0 +1,67 @@
+[
+    {
+        "type": 0,
+        "name": "testing 1",
+        "content": "testing 1",
+        "creatorUserName": "cb678aed-2830-4829-bd21-9c8bfda474d2",
+        "forMigration": false,
+        "environments": [
+            "Test"
+        ],
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1776272596644,
+        "modificationTimeUnixTimeInMs": 1776272596644
+    },
+    {
+        "type": 0,
+        "name": "testing 2",
+        "content": "Email content \nKey Aspects of Jet Ski Testing\nWater Testing (Performance Evaluation):\nWOT Pull: Perform a Wide Open Throttle (WOT) test for 10-15 seconds to ensure the jet ski reaches maximum RPMs and top speed.\nHandling: Assess the handling, especially if the hull has been treated with coatings like Super Slick 2000.\nElectric Conversion: Test controls (throttle, steering), battery levels, and ensure the vessel is waterproof.\nAcceleration and Vibration: Check for sluggish acceleration or unusual vibrations during operation.\nMechanical & Engine Testing:\nCompression Test: Measure engine cylinder compression, ensuring they are within roughly 10 PSI of each other.\nPressure Testing (2-Strokes): Use a leakdown tester to pressurize the engine to 6-9 PSI for about 3 minutes to identify leaks in gaskets.\nElectrical System: Check for starting issues, warning lights, and ensure the battery is charging properly with a multimeter.\n",
+        "creatorUserName": "cb678aed-2830-4829-bd21-9c8bfda474d2",
+        "forMigration": false,
+        "environments": [
+            "manualdynamic"
+        ],
+        "id": 2,
+        "creationTimeUnixTimeInMs": 1776272660624,
+        "modificationTimeUnixTimeInMs": 1776272660624
+    },
+    {
+        "type": 0,
+        "name": "12344444$$!2",
+        "content": "Key Aspects of Jet Ski Testing\nWater Testing (Performance Evaluation):\nWOT Pull: Perform a Wide Open Throttle (WOT) test ",
+        "creatorUserName": "cb678aed-2830-4829-bd21-9c8bfda474d2",
+        "forMigration": false,
+        "environments": [
+            "1233333333333333333322222222222"
+        ],
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1776272694390,
+        "modificationTimeUnixTimeInMs": 1776272694390
+    },
+    {
+        "type": 0,
+        "name": "Default",
+        "content": "Key ",
+        "creatorUserName": "cb678aed-2830-4829-bd21-9c8bfda474d2",
+        "forMigration": false,
+        "environments": [
+            "Default Environment"
+        ],
+        "id": 4,
+        "creationTimeUnixTimeInMs": 1776272709576,
+        "modificationTimeUnixTimeInMs": 1776272709576
+    },
+    {
+        "type": 0,
+        "name": "ALl",
+        "content": "e",
+        "creatorUserName": "cb678aed-2830-4829-bd21-9c8bfda474d2",
+        "forMigration": false,
+        "environments": [
+            "*"
+        ],
+        "id": 5,
+        "creationTimeUnixTimeInMs": 1776272730949,
+        "modificationTimeUnixTimeInMs": 1776272730949
+    }
+]
