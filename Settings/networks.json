@@ -1,0 +1,13 @@
+[
+    {
+        "address": "1.0.0.1/12",
+        "name": "net",
+        "priority": 1,
+        "environments": [
+            "Default Environment"
+        ],
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1776842792375,
+        "modificationTimeUnixTimeInMs": 1776842792375
+    }
+]
