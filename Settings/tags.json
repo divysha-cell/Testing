@@ -1,5 +1,25 @@
 [
     {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/21",
+        "id": 21,
+        "displayName": "1added",
+        "matchCriteria": "DataDriven",
+        "comparisonType": "Exact",
+        "priority": 1,
+        "canBeCaseTitle": false
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/20",
+        "id": 20,
+        "displayName": "Simulated Case",
+        "matchCriteria": "DataDriven",
+        "value": "Simulated Case",
+        "propertyName": "",
+        "comparisonType": "Exact",
+        "priority": 1,
+        "canBeCaseTitle": false
+    },
+    {
         "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/16",
         "id": 16,
         "displayName": "Simulated Case",
