@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Triage",
+        "order": 1,
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1777517890830,
+        "modificationTimeUnixTimeInMs": 1777517890830
+    },
+    {
+        "name": "Assessment",
+        "order": 2,
+        "id": 2,
+        "creationTimeUnixTimeInMs": 1777517890830,
+        "modificationTimeUnixTimeInMs": 1777517890830
+    },
+    {
+        "name": "Investigation",
+        "order": 3,
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1777517890830,
+        "modificationTimeUnixTimeInMs": 1777517890830
+    },
+    {
+        "name": "Incident",
+        "order": 4,
+        "id": 4,
+        "creationTimeUnixTimeInMs": 1777517890830,
+        "modificationTimeUnixTimeInMs": 1777517890830
+    },
+    {
+        "name": "Improvement",
+        "order": 5,
+        "id": 5,
+        "creationTimeUnixTimeInMs": 1777517890830,
+        "modificationTimeUnixTimeInMs": 1777517890830
+    },
+    {
+        "name": "Research",
+        "order": 6,
+        "id": 6,
+        "creationTimeUnixTimeInMs": 1777517890830,
+        "modificationTimeUnixTimeInMs": 1777517890830
+    },
+    {
+        "name": "stagenew",
+        "order": 7,
+        "id": 7,
+        "creationTimeUnixTimeInMs": 1777539589056,
+        "modificationTimeUnixTimeInMs": 1777539589056
+    },
+    {
+        "name": "stagenew2!@#$%^^",
+        "order": 8,
+        "id": 8,
+        "creationTimeUnixTimeInMs": 1777539796751,
+        "modificationTimeUnixTimeInMs": 1777539796751
+    },
+    {
+        "name": "Stage new 3",
+        "order": 9,
+        "id": 9,
+        "creationTimeUnixTimeInMs": 1777539808040,
+        "modificationTimeUnixTimeInMs": 1777539808040
+    },
+    {
+        "name": "Stage new 4",
+        "order": 17,
+        "id": 10,
+        "creationTimeUnixTimeInMs": 1777539823939,
+        "modificationTimeUnixTimeInMs": 1777539823939
+    }
+]
