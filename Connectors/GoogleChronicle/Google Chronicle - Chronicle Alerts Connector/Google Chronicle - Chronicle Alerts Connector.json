@@ -62,6 +62,17 @@
         {
             "mandatory": false,
             "advanced": false,
+            "type": "Int",
+            "mode": "Script",
+            "description": "How many alerts per type to process per one connector iteration. Default: 100.",
+            "displayName": "Max Alerts To Fetch",
+            "value": "100",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": false,
+            "advanced": false,
             "type": "Password",
             "mode": "Script",
             "description": "The client email address of your workload identity. You can configure either this parameter or the User's Service Account parameter. To impersonate service accounts with the workload identity email address, grant the Service Account Token Creator role to your service account. If both this and User's Service Account not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
@@ -78,17 +89,6 @@
             "description": "Number of hours before the first connector iteration to retrieve alerts from. This parameter applies to the initial connector iteration after you enable the connector for the first time, or used as a fallback value in cases where connector's last run timestamp expires. Maximum: 167 hours.",
             "displayName": "Max Hours Backwards",
             "value": "1",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": false,
-            "advanced": false,
-            "type": "Int",
-            "mode": "Script",
-            "description": "How many alerts per type to process per one connector iteration. Default: 100.",
-            "displayName": "Max Alerts To Fetch",
-            "value": "100",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         },
@@ -167,11 +167,6 @@
     "description": "Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.",
     "intervalSeconds": 10,
     "version": 1,
-    "allowList": [
-        "qwert",
-        "1234",
-        "!@#%$4"
-    ],
     "productFieldName": "alert_type",
     "eventFieldName": "event_type",
     "timeoutSeconds": 180,
@@ -223,6 +218,17 @@
         {
             "mandatory": false,
             "advanced": false,
+            "type": "Int",
+            "mode": "Script",
+            "description": "How many alerts per type to process per one connector iteration. Default: 100.",
+            "displayName": "Max Alerts To Fetch",
+            "value": "100",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": false,
+            "advanced": false,
             "type": "Password",
             "mode": "Script",
             "description": "The client email address of your workload identity. You can configure either this parameter or the User's Service Account parameter. To impersonate service accounts with the workload identity email address, grant the Service Account Token Creator role to your service account. If both this and User's Service Account not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
@@ -239,17 +245,6 @@
             "description": "Number of hours before the first connector iteration to retrieve alerts from. This parameter applies to the initial connector iteration after you enable the connector for the first time, or used as a fallback value in cases where connector's last run timestamp expires. Maximum: 167 hours.",
             "displayName": "Max Hours Backwards",
             "value": "1",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": false,
-            "advanced": false,
-            "type": "Int",
-            "mode": "Script",
-            "description": "How many alerts per type to process per one connector iteration. Default: 100.",
-            "displayName": "Max Alerts To Fetch",
-            "value": "100",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         },
