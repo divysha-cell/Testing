@@ -1,9 +1,9 @@
 {
-    "name": "projects/project/locations/location/instances/instance/integrations/CrowdStrikeFalcon/connectors/5/connectorInstances/10",
-    "id": 10,
+    "name": "projects/project/locations/location/instances/instance/integrations/CrowdStrikeFalcon/connectors/5/connectorInstances/13",
+    "id": 13,
     "custom": false,
     "documentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/crowdstrike-falcon#alerts-connector",
-    "identifier": "Crowdstrike - Alerts Connector_957cd53a-0d19-4300-9617-ca39be1ebb74",
+    "identifier": "Crowdstrike - Alerts Connector_885c3c84-0b96-44e3-a0a0-15ae740a975a",
     "connectorDefinitionName": "Crowdstrike - Alerts Connector",
     "integration": "CrowdStrikeFalcon",
     "remote": false,
@@ -16,13 +16,46 @@
     },
     "parameters": [
         {
+            "mandatory": false,
+            "advanced": true,
+            "type": "String",
+            "mode": "Script",
+            "description": "Describes the name of the field where the environment name is stored. If the environment field isn't found, the environment is the default environment.",
+            "displayName": "Environment Field Name",
+            "value": "",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": false,
+            "advanced": true,
+            "type": "String",
+            "mode": "Script",
+            "description": "A regex pattern to run on the value found in the \"Environment Field Name\" field. Default is .* to catch all and return the value unchanged. Used to allow the user to manipulate the environment field through regex logic. If the regex pattern is null or empty, or the environment value is null, the final environment result is the default environment.",
+            "displayName": "Environment Regex Pattern",
+            "value": ".*",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": true,
+            "advanced": false,
+            "type": "String",
+            "mode": "Script",
+            "description": "API root of the Crowdstrike instance.",
+            "displayName": "API Root",
+            "value": "https://api.crowdstrike.com",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
             "mandatory": true,
             "advanced": false,
             "type": "String",
             "mode": "Script",
             "description": "Client ID  of the Crowdstrike account.",
             "displayName": "Client ID",
-            "value": "38c5488700bd4741a75ba6a965843a9b",
+            "value": "vb",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         },
@@ -190,46 +223,13 @@
             "value": "",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": false,
-            "advanced": true,
-            "type": "String",
-            "mode": "Script",
-            "description": "Describes the name of the field where the environment name is stored. If the environment field isn't found, the environment is the default environment.",
-            "displayName": "Environment Field Name",
-            "value": "",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": false,
-            "advanced": true,
-            "type": "String",
-            "mode": "Script",
-            "description": "A regex pattern to run on the value found in the \"Environment Field Name\" field. Default is .* to catch all and return the value unchanged. Used to allow the user to manipulate the environment field through regex logic. If the regex pattern is null or empty, or the environment value is null, the final environment result is the default environment.",
-            "displayName": "Environment Regex Pattern",
-            "value": ".*",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": true,
-            "advanced": false,
-            "type": "String",
-            "mode": "Script",
-            "description": "API root of the Crowdstrike instance.",
-            "displayName": "API Root",
-            "value": "https://api.crowdstrike.com",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
         }
     ],
     "status": 1,
     "updateAvailable": false,
     "enabled": false,
-    "environment": "Env1",
-    "displayName": "Crowdstrike - Alerts Connector",
+    "environment": "Default Environment",
+    "displayName": "newCrowdstrike - Alerts Connector",
     "description": "Pull alerts from Crowdstrike. Dynamic List works with the \"display_name\" parameter. Note: To fetch identity protection detections use \"Identity Protection Detections Connector\".",
     "intervalSeconds": 10,
     "version": 1,
@@ -238,13 +238,46 @@
     "timeoutSeconds": 180,
     "params": [
         {
+            "mandatory": false,
+            "advanced": true,
+            "type": "String",
+            "mode": "Script",
+            "description": "Describes the name of the field where the environment name is stored. If the environment field isn't found, the environment is the default environment.",
+            "displayName": "Environment Field Name",
+            "value": "",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": false,
+            "advanced": true,
+            "type": "String",
+            "mode": "Script",
+            "description": "A regex pattern to run on the value found in the \"Environment Field Name\" field. Default is .* to catch all and return the value unchanged. Used to allow the user to manipulate the environment field through regex logic. If the regex pattern is null or empty, or the environment value is null, the final environment result is the default environment.",
+            "displayName": "Environment Regex Pattern",
+            "value": ".*",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": true,
+            "advanced": false,
+            "type": "String",
+            "mode": "Script",
+            "description": "API root of the Crowdstrike instance.",
+            "displayName": "API Root",
+            "value": "https://api.crowdstrike.com",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
             "mandatory": true,
             "advanced": false,
             "type": "String",
             "mode": "Script",
             "description": "Client ID  of the Crowdstrike account.",
             "displayName": "Client ID",
-            "value": "38c5488700bd4741a75ba6a965843a9b",
+            "value": "vb",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         },
@@ -410,39 +443,6 @@
             "description": "The customer ID of the tenant in which to execute the integration. For use in multi-tenant (MSSP) environments.",
             "displayName": "Customer ID",
             "value": "",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": false,
-            "advanced": true,
-            "type": "String",
-            "mode": "Script",
-            "description": "Describes the name of the field where the environment name is stored. If the environment field isn't found, the environment is the default environment.",
-            "displayName": "Environment Field Name",
-            "value": "",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": false,
-            "advanced": true,
-            "type": "String",
-            "mode": "Script",
-            "description": "A regex pattern to run on the value found in the \"Environment Field Name\" field. Default is .* to catch all and return the value unchanged. Used to allow the user to manipulate the environment field through regex logic. If the regex pattern is null or empty, or the environment value is null, the final environment result is the default environment.",
-            "displayName": "Environment Regex Pattern",
-            "value": ".*",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": true,
-            "advanced": false,
-            "type": "String",
-            "mode": "Script",
-            "description": "API root of the Crowdstrike instance.",
-            "displayName": "API Root",
-            "value": "https://api.crowdstrike.com",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         }
