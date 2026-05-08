@@ -229,7 +229,7 @@
     "updateAvailable": false,
     "enabled": false,
     "environment": "Default Environment",
-    "displayName": "newCrowdstrike - Alerts Connector",
+    "displayName": "neCrowdstrike - Alerts Connector",
     "description": "Pull alerts from Crowdstrike. Dynamic List works with the \"display_name\" parameter. Note: To fetch identity protection detections use \"Identity Protection Detections Connector\".",
     "intervalSeconds": 10,
     "version": 1,
