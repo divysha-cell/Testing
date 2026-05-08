@@ -1,9 +1,9 @@
 {
-    "name": "projects/project/locations/location/instances/instance/integrations/PaloAltoCortexXDR/connectors/2/connectorInstances/1",
-    "id": 1,
+    "name": "projects/project/locations/location/instances/instance/integrations/PaloAltoCortexXDR/connectors/2/connectorInstances/8",
+    "id": 8,
     "custom": false,
     "documentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/palo-alto-cortex-xdr#palo-alto-cortex-xdr-connector",
-    "identifier": "Palo Alto Cortex XDR Connector_aca6bb34-727e-43b8-9a6e-9daf9a975741",
+    "identifier": "Palo Alto Cortex XDR Connector_5a615ca7-b748-4ac3-9e99-fb4862a238fd",
     "connectorDefinitionName": "Palo Alto Cortex XDR Connector",
     "integration": "PaloAltoCortexXDR",
     "remote": false,
@@ -11,10 +11,21 @@
     "connectorId": 2,
     "integrationVersion": "28",
     "statistics": {
-        "pastDayAlertsCount": 12,
-        "avgAlertsPerDay": 12
+        "pastDayAlertsCount": 0,
+        "avgAlertsPerDay": 0
     },
     "parameters": [
+        {
+            "mandatory": true,
+            "advanced": false,
+            "type": "String",
+            "mode": "Script",
+            "description": "The API root of the Palo Alto XDR instance.",
+            "displayName": "Api Root",
+            "value": "https://api-gcptesting.xdr.us.paloaltonetworks.com",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
         {
             "mandatory": true,
             "advanced": false,
@@ -130,28 +141,6 @@
             "advanced": true,
             "type": "String",
             "mode": "Script",
-            "description": "The proxy username to authenticate with.",
-            "displayName": "Proxy Username",
-            "value": "",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": true,
-            "advanced": false,
-            "type": "String",
-            "mode": "Script",
-            "description": "The API root of the Palo Alto XDR instance.",
-            "displayName": "Api Root",
-            "value": "https://api-gcptesting.xdr.us.paloaltonetworks.com",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": false,
-            "advanced": true,
-            "type": "String",
-            "mode": "Script",
             "description": "The lowest severity of the alerts to retrieve. If no value is provided, the connector ingests alerts with all severity levels. The Lowest Incident SmartScore To Fetch acts as a master filter. If an incident's score meets this threshold, all associated alerts will be processed, regardless of their individual severity filter settings.",
             "displayName": "Lowest Alert Severity To Fetch",
             "value": "",
@@ -209,6 +198,17 @@
             "mode": "Script",
             "description": "The address of the proxy server to use.",
             "displayName": "Proxy Server Address",
+            "value": "",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": false,
+            "advanced": true,
+            "type": "String",
+            "mode": "Script",
+            "description": "The proxy username to authenticate with.",
+            "displayName": "Proxy Username",
             "value": "",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
@@ -236,7 +236,7 @@
             "modificationTimeUnixTimeInMs": 0
         }
     ],
-    "status": 0,
+    "status": 1,
     "updateAvailable": false,
     "enabled": true,
     "environment": "Default Environment",
@@ -248,6 +248,17 @@
     "eventFieldName": "event_type",
     "timeoutSeconds": 180,
     "params": [
+        {
+            "mandatory": true,
+            "advanced": false,
+            "type": "String",
+            "mode": "Script",
+            "description": "The API root of the Palo Alto XDR instance.",
+            "displayName": "Api Root",
+            "value": "https://api-gcptesting.xdr.us.paloaltonetworks.com",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
         {
             "mandatory": true,
             "advanced": false,
@@ -363,28 +374,6 @@
             "advanced": true,
             "type": "String",
             "mode": "Script",
-            "description": "The proxy username to authenticate with.",
-            "displayName": "Proxy Username",
-            "value": "",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": true,
-            "advanced": false,
-            "type": "String",
-            "mode": "Script",
-            "description": "The API root of the Palo Alto XDR instance.",
-            "displayName": "Api Root",
-            "value": "https://api-gcptesting.xdr.us.paloaltonetworks.com",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
-            "mandatory": false,
-            "advanced": true,
-            "type": "String",
-            "mode": "Script",
             "description": "The lowest severity of the alerts to retrieve. If no value is provided, the connector ingests alerts with all severity levels. The Lowest Incident SmartScore To Fetch acts as a master filter. If an incident's score meets this threshold, all associated alerts will be processed, regardless of their individual severity filter settings.",
             "displayName": "Lowest Alert Severity To Fetch",
             "value": "",
@@ -442,6 +431,17 @@
             "mode": "Script",
             "description": "The address of the proxy server to use.",
             "displayName": "Proxy Server Address",
+            "value": "",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": false,
+            "advanced": true,
+            "type": "String",
+            "mode": "Script",
+            "description": "The proxy username to authenticate with.",
+            "displayName": "Proxy Username",
             "value": "",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0

@@ -167,6 +167,11 @@
     "description": "Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.",
     "intervalSeconds": 10,
     "version": 1,
+    "allowList": [
+        "qwert",
+        "1234",
+        "!@#%$4"
+    ],
     "productFieldName": "alert_type",
     "eventFieldName": "event_type",
     "timeoutSeconds": 180,
