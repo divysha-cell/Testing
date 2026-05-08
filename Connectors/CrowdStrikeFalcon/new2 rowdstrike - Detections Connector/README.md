@@ -1,4 +1,4 @@
-# Crowdstrike - Detections Connector
+# new2 rowdstrike - Detections Connector
 Deprecated. Pull detections from Crowdstrike. Whitelist works with filters that are supported by the API of Crowdstrike. For the details, please refer to the documentation portal.
 
 
