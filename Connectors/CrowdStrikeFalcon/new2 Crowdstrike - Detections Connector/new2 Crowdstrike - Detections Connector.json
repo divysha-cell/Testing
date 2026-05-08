@@ -218,7 +218,7 @@
     "updateAvailable": false,
     "enabled": false,
     "environment": "Default Environment",
-    "displayName": "new2 Crowdstrike - Detections Connector",
+    "displayName": "new2 rowdstrike - Detections Connector",
     "description": "Deprecated. Pull detections from Crowdstrike. Whitelist works with filters that are supported by the API of Crowdstrike. For the details, please refer to the documentation portal.",
     "intervalSeconds": 10,
     "version": 1,
