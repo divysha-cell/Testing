@@ -7,7 +7,7 @@
     "integration": "CrowdStrikeFalcon",
     "identifier": "Crowdstrike - Detections Connector_c1b999b1-12bb-4f37-9ce6-acf57ccc4b8d",
     "connectorDefinitionName": "Crowdstrike - Detections Connector",
-    "displayName": "new2 rowdstrike - Detections Connector",
+    "displayName": "new2 Crowdstrike - Detections Connector",
     "description": "Deprecated. Pull detections from Crowdstrike. Whitelist works with filters that are supported by the API of Crowdstrike. For the details, please refer to the documentation portal.",
     "runIntervalInSeconds": 10,
     "resultDataType": 0,
