@@ -2,7 +2,7 @@
     "id": 0,
     "identifier": "6aace6d3-74ed-4c57-a5ea-a6b4484540cc",
     "version": "1",
-    "isEnabled": true,
+    "isEnabled": false,
     "isDebugMode": false,
     "name": "New Playbook",
     "creator": "28ff3096-2a98-4634-bc6c-bb0b19eacc62",
@@ -17,7 +17,7 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "6aace6d3-74ed-4c57-a5ea-a6b4484540cc",
     "creationTimeUnixTimeInMs": 1778490834139,
-    "modificationTimeUnixTimeInMs": 1778492668909,
+    "modificationTimeUnixTimeInMs": 1778492691620,
     "trigger": {
         "id": 0,
         "identifier": "e14af8b7-b5b7-46ac-9691-a40614cf2fff",
@@ -215,8 +215,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778492668770,
-            "modificationTimeUnixTimeInMs": 1778492668909,
+            "creationTimeUnixTimeInMs": 1778492691489,
+            "modificationTimeUnixTimeInMs": 1778492691620,
             "additionalProperties": {}
         }
     ],
