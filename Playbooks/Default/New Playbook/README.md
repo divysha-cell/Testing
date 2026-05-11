@@ -29,6 +29,4 @@
 |Step Name|Description|Integration|Original Action|
 |---------|-----------|-----------|---------------|
 |SiemplifyUtilities_Ping_1|Test Connectivity|SiemplifyUtilities|Ping|
-|Siemplify_Add Entity Insight_1|Add an insight configurable message to each targeted entity|Siemplify|Add Entity Insight|
-|Siemplify_Case Tag_1|Add given tag to the case the current alert is grouped to|Siemplify|Case Tag|
 
