@@ -34,3 +34,7 @@
 |Siemplify_Add General Insight_1|Add a general insight configurable message to the case|Siemplify|Add General Insight|
 |Siemplify_Add Entity Insight_1|Add an insight configurable message to each targeted entity|Siemplify|Add Entity Insight|
 
+### Involved Blocks
+|Name|Description|
+|----|-----------|
+|New Block|An embedded workflow that can receive inputs and return an output.|
