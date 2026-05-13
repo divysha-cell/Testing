@@ -1,7 +1,13 @@
 {
     "system_version": "6.1.6.170",
     "readme_addons": {
-        "Integration": {},
+        "Integration": {
+            "GoogleChronicle": "AddonReadme",
+            "CrowdStrikeFalcon": "AddonReadme",
+            "MicrosoftGraphMailDelegated": "AddonReadme",
+            "PaloAltoCortexXDR": "AddonReadme",
+            "Microsoft365Defender": "AddonReadme"
+        },
         "Mappings": {},
         "Visual Family": {},
         "Playbook": {},
