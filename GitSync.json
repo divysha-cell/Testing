@@ -5,7 +5,9 @@
         "Mappings": {},
         "Visual Family": {},
         "Playbook": {},
-        "Connector": {},
+        "Connector": {
+            "newCrowdstrike - Alerts Connector": "addonon"
+        },
         "Job": {},
         "Block": {}
     },
