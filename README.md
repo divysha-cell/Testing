@@ -10,14 +10,14 @@
 |Palo Alto Cortex XDR|Cortex XDR - XDR is the world’s first detection and response app that natively integrates network, endpoint and cloud data to stop sophisticated attacks.  Cortex XDR accurately detects threats with behavioral analytics and reveals the root cause to speed up investigations.|
 
 
-## Connectors
-|Name|Description|Has Mappings|
-|----|-----------|------------|
-|newCrowdstrike - Alerts Connector|Pull alerts from Crowdstrike. Dynamic List works with the "display_name" parameter. Note: To fetch identity protection detections use "Identity Protection Detections Connector".|True|
-
-
 ## Playbooks
 |Name|Description|
 |----|-----------|
 |New Playbook||
+
+
+## Visual Families
+|Name|Description|
+|----|-----------|
+|AV_THBn|newaddedmanually|
 
